@@ -1,5 +1,5 @@
 /* ========================================
-   BRASA & SAMBA — Main JavaScript
+   BRASA Y SAMBA — Main JavaScript
    ======================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -121,7 +121,7 @@ function initContactForm() {
 
     // Build WhatsApp message
     const message = encodeURIComponent(
-      `¡Hola! Quiero reservar mesa en Brasa & Samba:\n\n` +
+      `¡Hola! Quiero reservar mesa en Brasa y Samba:\n\n` +
       `👤 Nombre: ${data.nombre}\n` +
       `📧 Email: ${data.email}\n` +
       `📞 Teléfono: ${data.telefono}\n` +
