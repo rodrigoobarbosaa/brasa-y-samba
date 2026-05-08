@@ -134,13 +134,12 @@ function initContactForm() {
 
     const whatsappUrl = `https://wa.me/34685563874?text=${message}`;
 
-    showFormMessage('¡Reserva enviada! Te redirigimos a WhatsApp para confirmar.', 'success');
+    showFormMessage('Te redirigimos a WhatsApp — envía el mensaje para confirmar tu reserva.', 'success');
 
     setTimeout(() => {
-      window.open(whatsappUrl, '_blank');
+      form.reset();
+      window.location.href = whatsappUrl;
     }, 1500);
-
-    form.reset();
   });
 }
 
