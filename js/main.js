@@ -134,7 +134,7 @@ function initContactForm() {
 
     const whatsappUrl = `https://wa.me/34685563874?text=${message}`;
 
-    showFormMessage('Te redirigimos a WhatsApp — envía el mensaje para confirmar tu reserva.', 'success');
+    showFormMessage('Tu reserva queda pendiente de confirmación por WhatsApp. Te redirigimos ahora.', 'success');
 
     setTimeout(() => {
       form.reset();
